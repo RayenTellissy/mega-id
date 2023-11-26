@@ -7,12 +7,7 @@ const characters = ["Α", "Β", "Γ", "Δ", "Ε", "Ζ", "Η", "Θ", "Ι", "Κ", 
 "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "_", "=", "+",
 "[", "]", "{", "}", ";", ":", "'", "\"", ",", ".", "<", ">", "/", "?", "|", "`", "~", " "]
 
-/**
- * Generates a collision-resistant ID.
- * @param {number} length - The length of the ID to be generated.
- * @returns {string} a collision-resistant ID.
- */
-const sid = (length = 11) => {
+const mgid = (length = 11) => {
   var id = ""
   for(var i = 0; i !== length; i++) {
     const random = Math.floor(Math.random() * 190)
@@ -21,4 +16,4 @@ const sid = (length = 11) => {
   return id
 }
 
-module.exports = { sid }
+module.exports = { mgid }

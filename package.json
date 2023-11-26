@@ -1,6 +1,6 @@
 {
   "name": "megaid",
-  "version": "0.0.9",
+  "version": "0.1.3",
   "description": "Library that generates random collision-resistant ids",
   "license": "MIT",
   "main": "index.js",
@@ -8,8 +8,5 @@
     "id",
     "uuid",
     "random"
-  ],
-  "dependencies": {
-    "megaid": "^0.0.9"
-  }
+  ]
 }
