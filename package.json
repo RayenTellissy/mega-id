@@ -1,9 +1,10 @@
 {
   "name": "megaid",
-  "version": "0.1.7",
+  "version": "0.1.9",
   "description": "Library that generates random collision-resistant ids",
   "license": "MIT",
   "main": "index.js",
+  "repository": "RayenTellissy/mega-id",
   "keywords": [
     "id",
     "uuid",
