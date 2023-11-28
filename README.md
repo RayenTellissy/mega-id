@@ -21,4 +21,4 @@ const id = mgid() //=> "ϻYPnnϧϔλ7jO"
 
 * **Generating** Megaid uses crypto api instead of Math.random(). The Crypto module uses unpredictable hardware random generator.
 
-* **Symbols** Megaid uses extends symbols by adding greek letters to reduce the probability of 2 ids colliding.
+* **Symbols** Megaid extends symbols by adding greek letters to reduce the probability of collision.
